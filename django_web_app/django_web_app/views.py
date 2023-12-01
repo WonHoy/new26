@@ -1,7 +1,6 @@
 from django.http import JsonResponse
 from django.shortcuts import render, redirect
 from django.contrib import messages
-from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 import ast
