@@ -52,7 +52,7 @@ def profile(request):
 
 @csrf_exempt
 def lug(request):
-    template = '5110lug/index5110lug.html'
+    template = 'users/index5110.html'
     if request.method == "POST":
         submitbutton= request.POST.get("Submit")
 #Material        
